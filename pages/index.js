@@ -16,7 +16,7 @@ export default function Home() {
     </div>
   );
 }
-
+<script>
 var name = prompt("kirjoita nimesi ")
 var greeting = "hauska tutustua " + name + "!"
 var word = prompt("Kirjoita sana ")
@@ -29,4 +29,5 @@ document.write(greeting)
  {
   document.write(word)
  }
+</script>
 
