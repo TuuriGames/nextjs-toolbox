@@ -1,9 +1,3 @@
-import Head from "next/head";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
-import FeedbackForm from "@components/FeedbackForm";
-import JokeBlock from "@components/JokeBlock";
-
 export default function Home() {
   return (
     <div className="container">
@@ -22,3 +16,17 @@ export default function Home() {
     </div>
   );
 }
+
+var name = prompt("kirjoita nimesi ")
+var greeting = "hauska tutustua " + name + "!"
+var word = prompt("Kirjoita sana ")
+document.write(greeting)
+</script>
+
+<button onclick="tonguetwist()">Sano tämä!</button>
+<script>
+ function tonguetwist()
+ {
+  document.write(word)
+ }
+
